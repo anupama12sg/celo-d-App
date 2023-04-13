@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap'); /* Importing Google Fonts Poppins and Raleway */
 
 * {
-  font-family: 'Poppins', sans-serif;
-  /* border: solid 1px red; */
+  font-family: 'Poppins', sans-serif; /* Setting default font family for all elements to Poppins, sans-serif */
 }
 
 .app {
@@ -21,14 +20,14 @@
   border-radius: 10px;
   border: solid 1px yellow;
   height: 50px;
-  background-color: rgba(0, 0, 255, 0.461);
+  background-color: rgba(0, 0, 255, 0.461); /* Setting background color for nav with blue color and opacity */
   gap: 40px;
   padding: 10px 0px;
 }
 
 .nav_connect {
   color: white;
-  background-color: green;
+  background-color: green; /* Setting background color for nav_connect with green color */
   border-radius: 5px;
   padding: 10px 20px;
 }
@@ -59,7 +58,7 @@
 
 .nft-card_details {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.884);
+  background-color: rgba(255, 255, 255, 0.884); /* Setting background color for nft-card_details with white color and opacity */
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   width: 100%;
@@ -82,7 +81,7 @@
 }
 
 .nft-card_details:hover {
-  opacity: 1;
+  opacity: 1; /* Changing opacity of nft-card_details to 1 on hover */
 }
 
 .mint-form {
@@ -100,7 +99,7 @@
   border-radius: 5px;
   border: 1px solid black;
   outline: none;
-  font-size: 17;
+  font-size: 17px; /* Adding font size for input */
   font-family: inherit;
 }
 
@@ -109,7 +108,7 @@
   border-radius: 10px;
   border: 1px solid gray;
   color: white;
-  background-color: peru;
+  background-color: peru; /* Setting background color for mint-form button with peru color */
   font-family: inherit;
   font-size: 17px;
   cursor: pointer;
